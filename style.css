@@ -1,0 +1,48 @@
+@charset "utf-8";
+*{
+    cursor: url(tori.png),auto;
+    background-color: #DDFFDD;
+    background-image: url(bg.png);
+    color: #fff;
+    border-color: #fff;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    margin: 10px;
+    width: 600px;
+}
+.btn{
+    margin-bottom: 20px;
+    margin: 10px;
+}
+.bt_out{
+    display: flex;
+    justify-content: right;
+}
+textarea{
+    width: 600px;
+}
+.deleteBtn{
+    width: 20px;
+    /* background-color: #C1E6D0; */
+}
+#text,#uname,#output{
+    border-radius: 6px;
+    /* background-color: #fff; */
+}
+#start_btn{
+    color: #fff;
+    /* background-color: lightgrey; */
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+.card{
+    /* background-color: #C1E6D0; */
+    padding: 10px;
+    border-bottom: #fff solid 1px;
+    border-right: none;
+    border-left: none;
+}
